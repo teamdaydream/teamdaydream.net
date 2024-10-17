@@ -2,17 +2,17 @@
 const items = [
   {
     name: 'ホーム',
-    icon: 'i-heroicons-home',
+    emoji: 'Travel%20and%20places/House.png',
     to: '/'
   },
   {
     name: '私達について',
-    icon: 'i-heroicons-information-circle',
+    emoji: 'Symbols/White%20Exclamation%20Mark.png',
     to: '/about'
   },
   {
     name: 'メンバー紹介',
-    icon: 'i-heroicons-user',
+    emoji: 'People/Person.png',
     to: '/members'
   }
 ]
@@ -23,7 +23,7 @@ const mobileMenuToggle = ref(false)
 <template>
   <header class="border-b-2 border-b-gray-100 dark:border-b-gray-800 py-2 flex">
     <div class="w-full max-w-[1400px] flex items-center mx-auto">
-      <HeaderItem v-for="item in items" :name="item.name" :icon="item.icon" :to="item.to" class="hidden lg:block"/>
+      <HeaderItem v-for="item in items" :name="item.name" :emoji="item.emoji" :to="item.to" class="hidden lg:block"/>
       <ThemeSwitcher class="ml-auto"/>
       <UButton :padded="false" variant="ghost" color="gray" icon="i-heroicons-bars-3" class="p-3 lg:hidden" @click="mobileMenuToggle = !mobileMenuToggle"/>
     </div>
@@ -41,7 +41,7 @@ const mobileMenuToggle = ref(false)
           @click="mobileMenuToggle = false"
       />
       <h1 class="text-2xl text-primary font-bold">Team はくちゅーむ</h1>
-      <HeaderItem v-for="item in items" :name="item.name" :icon="item.icon" :to="item.to" class="my-3"/>
+      <HeaderItem v-for="item in items" :name="item.name" :emoji="item.emoji" :to="item.to" class="my-3"/>
     </div>
   </USlideover>
 </template>

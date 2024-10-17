@@ -1,5 +1,7 @@
 <script setup lang="ts">
-
+definePageMeta({
+  name: "ホーム"
+})
 </script>
 
 <template>
@@ -8,7 +10,7 @@
       <div>
         <h1 class="lg:text-6xl md:text-5xl sm:text-5xl text-3xl font-bold text-black">
           <div class="flex">
-            Hello <p class="animate-pulse">👋</p>,
+            Hello <FluentEmoji id="Hand%20gestures/Waving%20Hand.png" class="lg:h-16 md:h-14 sm:h-12 h-8" />,
           </div>
           We're <span class="text-primary text-stroke">はくちゅーむ!</span>
         </h1>
