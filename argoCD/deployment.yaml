@@ -1,16 +1,16 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: teamdaydream.net
+  name: teamdaydream-net
 spec:
   selector:
     matchLabels:
-      app: teamdaydream.net
+      app: teamdaydream-net
   replicas: 3
   template:
     metadata:
       labels:
-        app: teamdaydream.net
+        app: teamdaydream-net
     spec:
       containers:
         - name: app
