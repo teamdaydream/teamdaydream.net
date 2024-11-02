@@ -7,6 +7,3 @@ spec:
     app: teamdaydream-net
   ports:
     - port: 3000
-      targetPort: 3000
-      nodePort: 30001
-  type: NodePort
