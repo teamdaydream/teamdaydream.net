@@ -13,8 +13,8 @@ definePageMeta({
     <Member name="res(るーず)" description="ゲーム開発に興味があります。まだまだ分からないことだらけですが楽しくプログラミング勉強中です！" icon="/member-icon/rse.jpg" github="rse00000" twitter="rse00000" />
     <Member name="蜜柑もち" description="得意領域は脆弱性テストなどのセキュリティ分野です！ 基本的に興味があれば何でも触ります。 最近だとDjangoを利用したWebなどなど...学習中です！" icon="/member-icon/mikanmochi.png" github="omochi05"/>
     <Member name="hiro_omochi1234" description="フロントエンドを勉強中... rustが最近のマイブーム java,python使ってます！" icon="/member-icon/hiro_omochi1234.png" github="hiro1234omochi"/>
-    <Member name="daizyoo" description="not yet. Asking..." icon="" github="daizyoo"/>
-    <Member name="みゃ～" description="not yet. Asking..." icon="" github="KyoukaTanaka"/>
+    <Member name="daizyoo" description="not yet. Asking..." icon="/member-icon/daizyoo.png" github="daizyoo"/>
+    <Member name="みゃ～" description="not yet. Asking..." icon="/member-icon/mya-.png" github="KyoukaTanaka"/>
   </div>
 </template>
 
