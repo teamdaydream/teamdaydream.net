@@ -41,7 +41,7 @@ const mobileMenuToggle = ref(false)
           @click="mobileMenuToggle = false"
       />
       <h1 class="text-2xl text-primary font-bold">Team はくちゅーむ</h1>
-      <HeaderItem v-for="item in items" :name="item.name" :emoji="item.emoji" :to="item.to" class="my-3"/>
+      <HeaderItem v-for="item in items" :name="item.name" :emoji="item.emoji" :to="item.to" class="my-3" @click="mobileMenuToggle = false" />
     </div>
   </USlideover>
 </template>
